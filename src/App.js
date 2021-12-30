@@ -14,9 +14,7 @@ function App() {
                 <img src={Victoria} alt="logo"/>
               </Navbar.Brand> 
               <span className="title">
-              <img src={Title} alt="title"/>
-                {/* Victoria H. Jeon
-                <span className="subtitle">SOFTWARE DEVELOPER</span> */}
+                <img src={Title} alt="title"/>
               </span>
             {/* <Nav md="auto" style={{ maxHeight: '100px'}}> */}
             <nav className="Navbar-Links">
@@ -30,7 +28,7 @@ function App() {
               <Navbar.Offcanvas
                 id="offcanvasNavbar"
                 aria-labelledby="offcanvasNavbarLabel"
-                // placement="end"
+                placement="end"
               >
                 <Offcanvas.Header closeButton>
                   <Offcanvas.Title id="offcanvasNavbarLabel">Offcanvas</Offcanvas.Title>
@@ -55,10 +53,15 @@ function App() {
       </Navbar>
       <header className="App-header">
         <Carousel>
+          <Carousel.Item interval={5000}>
+            <img src='/Victoria.png' className='App-logo'alt='App-logo'/>
+          </Carousel.Item>
           <Carousel.Item interval={4000}>
-            <img src='/Victoria.png' className='App-logo'/>
+            <Nav.Link href="http://good-morels.herokuapp.com/home">
+              <img src='https://giphy.com/embed/yZRoXvpZflasovKcmN' alt='Mushroom'/>
+            </Nav.Link>
             <Carousel.Caption>
-              <h3>First slide label</h3>
+              {/* <h3>Second Slide label</h3> */}
             </Carousel.Caption>
           </Carousel.Item>
         </Carousel>
