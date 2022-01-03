@@ -4,8 +4,12 @@
 }
 
 .App-logo {
-  height: 90vmin;
+  height: 80vmin;
   pointer-events: none;
+}
+
+.App-logo-mobile {
+  height: 60vmin;
 }
 
 .bg-cream {
@@ -63,7 +67,21 @@ nav.mobileNav ul li a {
 }
 
 .Title {
+  padding: 0.5ch;
+}
+
+.AboutMe-Mobile {
   padding: 1ch;
+  background: #c7cac4;
+  font-size: medium;
+}
+
+.AboutMe {
+  padding: 2ch;
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  font-size: x-large;
 }
 
 /* .App-link {

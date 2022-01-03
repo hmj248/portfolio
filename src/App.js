@@ -33,7 +33,7 @@ function App() {
   />
   return (
     <div className="App">
-      {windowWidth < 500 ? 
+      {windowWidth < 810 ? 
       <><Navbar bg="cream" expand="true" sticky="top" className="mobileNav">
         <nav className="mobileNav"> 
               {open ? closedIcon : hamburgerIcon}
@@ -60,10 +60,14 @@ function App() {
             <img src={TitleSmall} alt="title" />
           </Container>
         </Navbar>
-          <Container className='AboutMe'>
-            <h1>About Me</h1>
+          <Container className='AboutMe-Mobile'>
+            <img src='/Victoria.png' className='App-logo-mobile' alt='App-logo' />
+            <h1>Hi, I'm Victoria.</h1>
+            <p>I'm a Full-stack Developer who love to learn new technologies and explore innovative solutions. 
+            </p>
           </Container>
           <Container className="App-Projects">
+          <h1>My Projects</h1>
             <Carousel>
               <Carousel.Item interval={5000}>
                 <img src='/Victoria.png' className='App-logo' alt='App-logo' />
@@ -95,20 +99,22 @@ function App() {
             </nav>
           </Container>
         </Navbar>
-        <Container className="Title">
-            <img src={Title} alt="title" />
+          <Container className='AboutMe'>
+            <div>
+              <h1>Hi, I'm Victoria.</h1>
+              <p>I'm a Full-stack Developer who love to learn new technologies and explore innovative solutions. 
+              </p>
+            </div>
+            <img src='/Victoria.png' className='App-logo' alt='App-logo' />
           </Container>
           <Container className="App-Projects">
             <Carousel>
-              <Carousel.Item interval={5000}>
-                <img src='/Victoria.png' className='App-logo' alt='App-logo' />
-              </Carousel.Item>
               <Carousel.Item interval={4000}>
                 <Nav.Link href="http://good-morels.herokuapp.com/home">
                   <img src='https://giphy.com/embed/yZRoXvpZflasovKcmN' alt='Mushroom' />
                 </Nav.Link>
                 <Carousel.Caption>
-                  {/* <h3>Second Slide label</h3> */}
+                  <h3>Second Slide label</h3>
                 </Carousel.Caption>
               </Carousel.Item>
             </Carousel>
