@@ -34,7 +34,7 @@ function App() {
   />
   return (
     <div className="App">
-      {windowWidth < 810 ? 
+      {windowWidth < 1018 ? 
       <><Navbar bg="cream" expand="true" sticky="top" className="mobileNav">
         <nav className="mobileNav"> 
               {open ? closedIcon : hamburgerIcon}
@@ -64,19 +64,26 @@ function App() {
           <Container className='AboutMe-Mobile'>
             <img src='/Victoria.png' className='App-logo-mobile' alt='App-logo' />
             <h1>Hi, I'm Victoria.</h1>
-            <p>I'm a Full-stack Engineer who loves to learn new technologies and explore innovative solutions. 
+            <p>
+              I'm a Full-stack Engineer with a passion for learning new technologies and exploring innovative solutions. 
             </p>
           </Container>
-          <Container className="App-Projects">
+          <Container className="App-Projects-Mobile">
           <h1>My Projects</h1>
-            <Carousel>
-              <Carousel.Item interval={4000}>
-                <Nav.Link href="http://good-morels.herokuapp.com/home">
-                  <img src={Mushroom} className='mushroom' alt='mushroom'/>
-                </Nav.Link>
-                <Carousel.Caption>
-                  {/* <h3>Second Slide label</h3> */}
-                </Carousel.Caption>
+            <Carousel >
+              <Carousel.Item interval={4000} >
+                <Container className='project-mobile'>
+                  <Nav.Link href="http://good-morels.herokuapp.com/home">
+                  <img src={Mushroom} alt='mushroom' className='mushroom-mobile'/>
+                  </Nav.Link>
+                  <Carousel.Caption className='mobile'>
+                    <h3>good-morsels</h3>
+                    <p>An E-commerce web application that sells medicinal mushrooms.
+                      Developed with React-Redux, PostgreSQL, NodeJS, and Express.js.
+                      tilized React-Redux and local storage to create a functioning cart for authenticated users and guests.
+                    </p>
+                  </Carousel.Caption>
+                </Container>
               </Carousel.Item>
             </Carousel>
           </Container></> : 
@@ -101,7 +108,7 @@ function App() {
             <div>
               <h1>Hi, I'm Victoria.</h1>
               <p>
-                I'm a Full-stack Engineer who loves to learn new technologies and explore innovative solutions. 
+              I'm a Full-stack Engineer with a passion for learning new technologies and exploring innovative solutions.
               </p>
             </div>
             <img src='/Victoria.png' className='App-logo' alt='App-logo' />

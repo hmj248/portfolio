@@ -95,9 +95,6 @@ nav.mobileNav ul li a {
 
 div.carousel.slide {
   width: 100%;
-  /* display: flex; */
-  /* padding: 0em; */
-  /* justify-content: flex-end; */
 }
 div.carousel-caption {
   position: sticky;
@@ -114,21 +111,25 @@ div.carousel-caption {
   align-content: center;
 }
 
-@media only screen and (max-width: 1013) {
-  div.carousel-caption {
-    position: sticky;
-    padding: 0%;
-    padding-top: 0ch;
-    font-size: medium;
-  }
+.App-Projects-Mobile {
+  background-color: #daddd8;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
 
-  .project {
-    display: flex;
-    /* justify-content: baseline; */
-    /* column-gap: 20px; */
-    flex-direction: row wrap;
-    align-content: center;
-  }
+.project-mobile {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+
+div.carousel-caption.mobile {
+  padding-top: 0;
 }
 
 /* div.carousel-caption {
