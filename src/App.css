@@ -72,9 +72,17 @@ nav.mobileNav ul li a {
 
 .AboutMe-Mobile {
   padding: 1ch;
-  background: #c7cac4;
+  background-color: #c7cac4;
   font-size: medium;
+  flex-shrink: 0;
 }
+
+/* @media only screen and (max-width: 1003px) {
+  .App-logo {
+    width: "50";
+    height: "50";
+  }
+} */
 
 .AboutMe {
   padding: 2ch;
@@ -82,7 +90,59 @@ nav.mobileNav ul li a {
   flex-flow: row nowrap;
   align-items: center;
   font-size: x-large;
+  flex-basis: 100%;
 }
+
+div.carousel.slide {
+  width: 100%;
+  /* display: flex; */
+  /* padding: 0em; */
+  /* justify-content: flex-end; */
+}
+div.carousel-caption {
+  position: sticky;
+  padding: 5ch;
+  padding-top: 14ch;
+  font-size: medium;
+}
+
+.project {
+  display: flex;
+  /* justify-content: baseline; */
+  /* column-gap: 20px; */
+  flex-direction: row wrap;
+  align-content: center;
+}
+
+@media only screen and (max-width: 1013) {
+  div.carousel-caption {
+    position: sticky;
+    padding: 0%;
+    padding-top: 0ch;
+    font-size: medium;
+  }
+
+  .project {
+    display: flex;
+    /* justify-content: baseline; */
+    /* column-gap: 20px; */
+    flex-direction: row wrap;
+    align-content: center;
+  }
+}
+
+/* div.carousel-caption {
+  float: right;
+} */
+
+/* div.App-Projects.container.carousel {
+  display: flex;
+  flex-flow:column wrap
+} */
+
+/* .mushroom:hover {
+  pointer-events: none;
+} */
 
 /* .App-link {
   color: #61dafb;

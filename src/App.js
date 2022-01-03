@@ -3,9 +3,10 @@ import { Carousel, Navbar, Container, Nav, Dropdown} from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Victoria from './Victoria.svg';
 import LinkedIn from './LinkedIn.svg';
-import Title from './Title.svg';
+// import Title from './Title.svg';
 import GitHub from './GitHub.svg';
-import TitleSmall from './TitleSmall.svg'
+import TitleSmall from './TitleSmall.svg';
+import Mushroom from './Mushroom.gif';
 import React, { useState, useEffect } from 'react';
 import { MdOutlineMenu, MdClose } from 'react-icons/md';
 
@@ -63,18 +64,15 @@ function App() {
           <Container className='AboutMe-Mobile'>
             <img src='/Victoria.png' className='App-logo-mobile' alt='App-logo' />
             <h1>Hi, I'm Victoria.</h1>
-            <p>I'm a Full-stack Developer who love to learn new technologies and explore innovative solutions. 
+            <p>I'm a Full-stack Engineer who loves to learn new technologies and explore innovative solutions. 
             </p>
           </Container>
           <Container className="App-Projects">
           <h1>My Projects</h1>
             <Carousel>
-              <Carousel.Item interval={5000}>
-                <img src='/Victoria.png' className='App-logo' alt='App-logo' />
-              </Carousel.Item>
               <Carousel.Item interval={4000}>
                 <Nav.Link href="http://good-morels.herokuapp.com/home">
-                  <img src='https://giphy.com/embed/yZRoXvpZflasovKcmN' alt='Mushroom' />
+                  <img src={Mushroom} className='mushroom' alt='mushroom'/>
                 </Nav.Link>
                 <Carousel.Caption>
                   {/* <h3>Second Slide label</h3> */}
@@ -102,20 +100,28 @@ function App() {
           <Container className='AboutMe'>
             <div>
               <h1>Hi, I'm Victoria.</h1>
-              <p>I'm a Full-stack Developer who love to learn new technologies and explore innovative solutions. 
+              <p>
+                I'm a Full-stack Engineer who loves to learn new technologies and explore innovative solutions. 
               </p>
             </div>
             <img src='/Victoria.png' className='App-logo' alt='App-logo' />
           </Container>
           <Container className="App-Projects">
-            <Carousel>
-              <Carousel.Item interval={4000}>
-                <Nav.Link href="http://good-morels.herokuapp.com/home">
-                  <img src='https://giphy.com/embed/yZRoXvpZflasovKcmN' alt='Mushroom' />
-                </Nav.Link>
-                <Carousel.Caption>
-                  <h3>Second Slide label</h3>
-                </Carousel.Caption>
+          <h1>My Projects</h1>
+            <Carousel >
+              <Carousel.Item interval={4000} >
+                <Container className='project'>
+                  <Nav.Link href="http://good-morels.herokuapp.com/home">
+                  <img src={Mushroom} alt='mushroom' className='mushroom'/>
+                  </Nav.Link>
+                  <Carousel.Caption>
+                    <h3>good-morsels</h3>
+                    <p>An E-commerce web application that sells medicinal mushrooms.
+                      Developed with React-Redux, PostgreSQL, NodeJS, and Express.js.
+                      tilized React-Redux and local storage to create a functioning cart for authenticated users and guests.
+                    </p>
+                  </Carousel.Caption>
+                </Container>
               </Carousel.Item>
             </Carousel>
           </Container></>}
