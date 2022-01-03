@@ -9,7 +9,7 @@
 }
 
 .bg-cream {
-  background-color: #daddd8;
+  background-color: rgb(97, 97, 97);
 }
 
 .App-Projects {
@@ -29,34 +29,43 @@
   flex-flow: row nowrap;
 }
 
-/* .Navbar-Link {
+nav.mobileNav {
   display: flex;
-  flex-flow: row nowrap;
-  justify-content: flex-start;
+  flex-flow: column nowrap;
   align-items: center;
-} */
+  width: 100%;
+  background: #8f8a8a9a;
+  padding-top: 0;
+}
+.mobileNav {
+  /* background: red; */
+  width: 100%;
+}
+
+nav.mobileNav ul {
+  display: flex;
+  /* justify-content: center; */
+  /* align-items: center; */
+  list-style-type: none;
+  flex-flow: column nowrap;
+  border-top: 1px solid #181818;
+  width: 100%;
+  background: red;
+  padding: 0;
+}
+nav.mobileNav ul li a {
+  text-decoration: none;
+  color: rgba(245, 242, 242, 0.934);
+}
 
 .link {
   font-size: x-small;
 }
 
-.App-link {
+.Title {
+  padding: 1ch;
+}
+
+/* .App-link {
   color: #61dafb;
-  /* font-size: 200px; */
-}
-
-@media only screen and (max-width: 852px) {
-  .Navbar-Links {
-    display: table-cell;
-    border-left: 0;
-  }
-}
-
-/* @keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
 } */
