@@ -3,7 +3,6 @@ import { Carousel, Navbar, Container, Nav, Row, Col } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Victoria from './Victoria.svg';
 import LinkedIn from './LinkedIn.svg';
-// import Title from './Title.svg';
 import GitHub from './GitHub.svg';
 import TitleSmall from './TitleSmall.svg';
 import Mushroom from './Mushroom.gif';
@@ -81,7 +80,7 @@ function App() {
             </p>
           </Container>
           <Container fluid className="App-Projects-Mobile">
-          <h1>My Projects</h1>
+          <h1>my projects</h1>
             <Carousel >
               <Carousel.Item interval={4000} >
                 <Container fluid className='project-mobile'>
@@ -100,7 +99,7 @@ function App() {
             </Carousel>
           </Container>
           <Container fluid className='Skills-mobile'>
-            <h3>skills</h3>
+            <h3>my skills</h3>
             <Row className="first">
               <Col className="skills-mobile">
                 <img src={java} alt='javaScript' className='skills-icon-mobile'/>
@@ -186,7 +185,7 @@ function App() {
             <img src='/Victoria.png' className='App-logo' alt='App-logo' />
           </Container>
           <Container fluid className="App-Projects">
-          <h1>My Projects</h1>
+          <h1>my projects</h1>
             <Carousel >
               <Carousel.Item interval={4000} >
                 <Container className='project'>
@@ -205,7 +204,7 @@ function App() {
             </Carousel>
           </Container>
           <Container fluid className='Skills'>
-            <h3>skills</h3>
+            <h3>my skills</h3>
             <Row className="first">
               <Col lg="2" className="skills">
                 <img src={java} alt='javaScript' className='skills-icon'/>

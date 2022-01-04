@@ -16,17 +16,6 @@
   background-color: rgb(97, 97, 97);
 }
 
-.App-Projects {
-  background-color: #daddd8;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
 .Navbar-Links {
   display: flex;
   justify-content: flex-end;
@@ -38,22 +27,16 @@ nav.mobileNav {
   flex-flow: column nowrap;
   align-items: center;
   width: 100%;
-  /* background: #8f8a8a9a; */
-  padding-top: 0;
-}
-.mobileNav {
-  width: 100%;
+  padding: 0.2ch;
 }
 
 nav.mobileNav ul {
   display: flex;
-  /* justify-content: center; */
-  /* align-items: center; */
   list-style-type: none;
   flex-flow: column nowrap;
-  border-top: 1px solid #181818;
+  border-top: 1px solid #c99646;
   width: 100%;
-  background: red;
+  background: #c2b9b03c;
   padding: 0;
 }
 nav.mobileNav ul li a {
@@ -70,19 +53,22 @@ nav.mobileNav ul li a {
 }
 
 .AboutMe-Mobile {
-  padding: 4ch;
-  padding-bottom: 7ch;
-  background-color: #c7cac4;
+  padding: 5ch;
   font-size: medium;
   flex-shrink: 0;
 }
 
-/* @media only screen and (max-width: 1003px) {
-  .App-logo {
-    width: "50";
-    height: "50";
-  }
-} */
+div.AboutMe-Mobile p {
+  padding-top: 2ch;
+  font-family: "Arvo", serif;
+  font-size: 2ch;
+}
+
+div.AboutMe-Mobile h1 {
+  padding-top: 1ch;
+  font-family: "Satisfy", cursive;
+  font-size: 3em;
+}
 
 .AboutMe {
   padding: 3ch;
@@ -98,22 +84,58 @@ div.AboutMe p {
   padding-left: 2ch;
 }
 
-div.carousel.slide {
-  width: 100%;
+div.AboutMe h1 {
+  font-family: "Satisfy", cursive;
+  font-size: 3em;
 }
-div.carousel-caption {
-  position: sticky;
-  padding: 5ch;
-  padding-top: 14ch;
-  font-size: medium;
+
+.App-Projects {
+  background-color: #daddd8;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  padding: 3ch;
 }
 
 .project {
   display: flex;
-  /* justify-content: baseline; */
-  /* column-gap: 20px; */
   flex-direction: row wrap;
   align-content: center;
+}
+
+div.carousel.slide {
+  width: 100%;
+}
+
+div.carousel-caption {
+  position: sticky;
+  padding: 5ch;
+  padding-top: 10ch;
+  font-size: large;
+}
+
+div.carousel-caption h3 {
+  font-size: 2em;
+}
+
+div.carousel-caption p {
+  font-size: 1.5em;
+}
+
+div.mobile.carousel-caption h3 {
+  font-size: 1.5em;
+}
+
+div.mobile.carousel-caption p {
+  font-size: 1em;
+}
+
+.mushroom {
+  height: 35ch;
 }
 
 .App-Projects-Mobile {
@@ -125,7 +147,17 @@ div.carousel-caption {
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
-  padding-top: 4ch
+  padding-top: 4ch;
+}
+
+.App-Projects h1 {
+  font-family: "Satisfy", cursive;
+  font-size: 3em;
+}
+
+.App-Projects-Mobile h1 {
+  font-family: "Satisfy", cursive;
+  font-size: 3em;
 }
 
 .project-mobile {
@@ -154,8 +186,10 @@ div.skills.col-lg-2 h5 {
 }
 
 div.Skills h3 {
-  padding-bottom: 4ch;
+  padding-bottom: 2ch;
   color: #75706b;
+  font-family: "Satisfy", cursive;
+  font-size: 4em;
 }
 
 div.Skills.container-fluid {
@@ -169,11 +203,12 @@ img.skills-icon {
 }
 
 img.skills-icon-mobile {
-  height: 30%;
+  height: 40px;
+  width: 40px;
 }
 
 div.Skills-mobile.container-fluid {
-  padding-top: 5ch;
+  padding: 5ch;
   overflow: hidden;
 }
 
@@ -188,6 +223,8 @@ div.skills-mobile.col {
 div.Skills-mobile h3 {
   padding-bottom: 2ch;
   color: #75706b;
+  font-family: "Satisfy", cursive;
+  font-size: 3em;
 }
 
 div.skills-mobile h5 {
