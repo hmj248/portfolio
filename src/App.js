@@ -18,6 +18,7 @@ import gcp from './GCP.svg';
 import git from './git.svg';
 import postgres from './postgres.svg';
 import webpack from './webpack.svg';
+import responsive from './responsive.svg'
 import React, { useState, useEffect } from 'react';
 import { MdOutlineMenu, MdClose } from 'react-icons/md';
 
@@ -97,7 +98,67 @@ function App() {
                 </Container>
               </Carousel.Item>
             </Carousel>
-          </Container></> : 
+          </Container>
+          <Container fluid className='Skills-mobile'>
+            <h3>skills</h3>
+            <Row className="first">
+              <Col className="skills-mobile">
+                <img src={java} alt='javaScript' className='skills-icon-mobile'/>
+                <h5>JavaScript<br></br>
+                  /ES2015</h5> 
+              </Col>
+              <Col className="skills-mobile">
+                <img src={node} alt='expressjs/nodejs' className='skills-icon-mobile'/>
+                <h5>ExpressJS & NodeJS</h5>
+              </Col>
+              <Col className="skills-mobile">
+                <img src={reactIcon} alt='react' className='skills-icon-mobile'/>
+                <h5>ReactJS</h5>
+              </Col>
+              <Col className="skills-mobile">
+                <img src={reduxIcon} alt='redux' className='skills-icon-mobile'/>
+                <h5>Redux</h5>
+              </Col>
+              <Col className="skills-mobile">
+                <img src={htmlCss} alt='htmlcss' className='skills-icon-mobile'/>
+                <h5>html5/css3</h5>
+              </Col>
+              <Col className="skills-mobile">
+                <img src={agile} alt='agile' className='skills-icon-mobile'/>
+                <h5>Agile Framework</h5>
+              </Col>
+              <Col className="skills-mobile">
+                <img src={responsive} alt='responsive web design' className='skills-icon-mobile'/>
+                <h5>Responsive Web Design</h5>
+              </Col>
+              <Col className="skills-mobile">
+                <img src={git} alt='git' className='skills-icon-mobile'/>
+                <h5>Git & GitHub Workflow</h5>
+              </Col>
+              <Col className="skills-mobile" >
+                <img src={gcp} alt='gcp' className='skills-icon-mobile'/>
+                <h5>Google Cloud Platform</h5>
+                {/* <ul id="gcp-skill">
+                  <li>Cloud Firestore</li>
+                  <li>Firebase</li>
+                  <li>Compute Engine VM Instances</li>
+                </ul> */}
+              </Col>
+              <Col className="skills-mobile">
+                <img src={postgres} alt='postgres' className='skills-icon-mobile'/>
+                <h5>PostgreSQL</h5>
+              </Col>
+              <Col className="skills-mobile">
+                <img src={webpack} alt='webpack' className='skills-icon-mobile'/>
+                <h5>Webpack</h5>
+              </Col>
+              <Col className="skills-mobile">
+                <img src={sequelize} alt='sequelize' className='skills-icon-mobile'/>
+                <h5>Sequelize</h5>
+              </Col>
+            </Row>
+          </Container>
+          </> : 
  <><Navbar bg="cream" expand="true" sticky="top">
           <Container fluid className="App-Header">
             <Navbar.Brand href="#">
@@ -144,62 +205,63 @@ function App() {
             </Carousel>
           </Container>
           <Container fluid className='Skills'>
-            <h3>Tech Stack</h3>
-            <Row >
-              <Col md={{ offset: 1}} className="skills">
+            <h3>skills</h3>
+            <Row className="first">
+              <Col lg="2" className="skills">
                 <img src={java} alt='javaScript' className='skills-icon'/>
-                <h5>JavaScript/ES2015</h5>
+                <h5>JavaScript<br></br>
+                  /ES2015</h5> 
               </Col>
-              <Col md={{ offset: 1}} className="skills">
+              <Col lg="2" className="skills">
                 <img src={node} alt='expressjs/nodejs' className='skills-icon'/>
                 <h5>ExpressJS & NodeJS</h5>
               </Col>
-              <Col md={{ offset: 1}} className="skills">
+              <Col lg="2" className="skills">
                 <img src={reactIcon} alt='react' className='skills-icon'/>
                 <h5>ReactJS</h5>
               </Col>
-              <Col md={{ offset: 1}} className="skills">
+              <Col lg="2" className="skills">
                 <img src={reduxIcon} alt='redux' className='skills-icon'/>
                 <h5>Redux</h5>
               </Col>
-            </Row>
-            <Row >
-              <Col md={{ offset: 1}} className="skills">
+              <Col lg="2" className="skills">
                 <img src={htmlCss} alt='htmlcss' className='skills-icon'/>
                 <h5>html5/css3</h5>
               </Col>
-              <Col md={{ offset: 1}} className="skills">
+              <Col lg="2" className="skills">
                 <img src={agile} alt='agile' className='skills-icon'/>
                 <h5>Agile Framework</h5>
               </Col>
-              <Col md={{ offset: 1}} className="skills">
-                <img src={sequelize} alt='sequelize' className='skills-icon'/>
-                <h5>Sequelize</h5>
-              </Col>
-              <Col md={{ offset: 1}} className="skills">
-                <img src={gcp} alt='gcp' className='skills-icon'/>
-                <h5>Google Cloud Platform:</h5>
-                <ul>
-                  <li>Cloud Firestore</li>
-                  <li>Firebase</li>
-                  <li>Compute Engine VM Instances</li>
-                </ul>
-              </Col>
             </Row>
-            <Row className ="lastRow">
-              <Col md={{ offset: 1}} className="skills">
+            <Row className="second">
+              <Col lg="2" className="skills">
+                <img src={responsive} alt='responsive web design' className='skills-icon'/>
+                <h5>Responsive Web Design</h5>
+              </Col>
+              <Col lg="2" className="skills">
                 <img src={git} alt='git' className='skills-icon'/>
                 <h5>Git & GitHub Workflow</h5>
               </Col>
-              <Col md={{ offset: 1}} className="skills">
+              <Col lg="2" className="skills" >
+                <img src={gcp} alt='gcp' className='skills-icon'/>
+                <h5>Google Cloud Platform</h5>
+                {/* <ul id="gcp-skill">
+                  <li>Cloud Firestore</li>
+                  <li>Firebase</li>
+                  <li>Compute Engine VM Instances</li>
+                </ul> */}
+              </Col>
+              <Col lg="2" className="skills">
                 <img src={postgres} alt='postgres' className='skills-icon'/>
                 <h5>PostgreSQL</h5>
               </Col>
-              <Col md={{ offset: 1}} className="skills">
+              <Col lg="2" className="skills">
                 <img src={webpack} alt='webpack' className='skills-icon'/>
                 <h5>Webpack</h5>
               </Col>
-              <Col md={{ offset: 1}}>
+              <Col lg="2" className="skills">
+                <img src={sequelize} alt='sequelize' className='skills-icon'/>
+                <h5>Sequelize</h5>
               </Col>
             </Row>
             </Container>

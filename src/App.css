@@ -1,6 +1,6 @@
 .App {
   text-align: center;
-  background-color: #daddd8;
+  background-color: #f4e9dd;
 }
 
 .App-logo {
@@ -38,11 +38,10 @@ nav.mobileNav {
   flex-flow: column nowrap;
   align-items: center;
   width: 100%;
-  background: #8f8a8a9a;
+  /* background: #8f8a8a9a; */
   padding-top: 0;
 }
 .mobileNav {
-  /* background: red; */
   width: 100%;
 }
 
@@ -71,7 +70,8 @@ nav.mobileNav ul li a {
 }
 
 .AboutMe-Mobile {
-  padding: 1ch;
+  padding: 4ch;
+  padding-bottom: 7ch;
   background-color: #c7cac4;
   font-size: medium;
   flex-shrink: 0;
@@ -85,12 +85,17 @@ nav.mobileNav ul li a {
 } */
 
 .AboutMe {
-  padding: 2ch;
+  padding: 3ch;
   display: flex;
   flex-flow: row nowrap;
   align-items: center;
   font-size: x-large;
   flex-basis: 100%;
+}
+
+div.AboutMe p {
+  padding-right: 2ch;
+  padding-left: 2ch;
 }
 
 div.carousel.slide {
@@ -120,6 +125,7 @@ div.carousel-caption {
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+  padding-top: 4ch
 }
 
 .project-mobile {
@@ -132,39 +138,71 @@ div.carousel-caption.mobile {
   padding-top: 0;
 }
 
-div.skills.col {
+div.skills.col-lg-2 {
   display: flex;
   flex-flow: column nowrap;
   align-items: flex-start;
   align-content: center;
+  padding-left: 9ch;
 }
 
-div.skills.col h5 {
+div.skills.col-lg-2 h5 {
   text-align: start;
+  color: #75706b;
+  font-size: 1em;
+  /* position: sticky; */
 }
 
-div.row.lastRow {
-  /* max-block-size: 10ch; */
+div.Skills h3 {
+  padding-bottom: 4ch;
+  color: #75706b;
 }
 
 div.Skills.container-fluid {
+  padding-top: 8ch;
+  padding-bottom: 10ch;
   overflow: hidden;
-  /* position: relative; */
-  /* width: 100% */
-}
-
-div.row {
-  height: 20ch;
 }
 
 img.skills-icon {
-  height: 20%;
+  height: 50%;
 }
 
-div.skills.col ul {
-  text-align: start;
-  list-style-type: circle;
+img.skills-icon-mobile {
+  height: 30%;
 }
+
+div.Skills-mobile.container-fluid {
+  padding-top: 5ch;
+  overflow: hidden;
+}
+
+div.skills-mobile.col {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: flex-start;
+  align-content: center;
+  padding-left: 5ch;
+}
+
+div.Skills-mobile h3 {
+  padding-bottom: 2ch;
+  color: #75706b;
+}
+
+div.skills-mobile h5 {
+  text-align: start;
+  color: #75706b;
+  font-size: 1em;
+}
+
+/* div.skills.col-lg-2 ul {
+  text-align: start;
+  list-style-type: disc;
+  padding-left: 2ch;
+  line-height: 1.5ch;
+  font-size: 0.7em;
+} */
 
 /* div.carousel-caption {
   float: right;
