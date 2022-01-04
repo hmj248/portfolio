@@ -1,5 +1,5 @@
 import './App.css';
-import { Carousel, Navbar, Container, Nav, Row, Col } from 'react-bootstrap';
+import { Carousel, Navbar, Container, Nav, Row, Col, Image } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Victoria from './Victoria.svg';
 import LinkedIn from './LinkedIn.svg';
@@ -17,7 +17,8 @@ import gcp from './GCP.svg';
 import git from './git.svg';
 import postgres from './postgres.svg';
 import webpack from './webpack.svg';
-import responsive from './responsive.svg'
+import responsive from './responsive.svg';
+import cache22 from './cache-22-logo.svg';
 import React, { useState, useEffect } from 'react';
 import { MdOutlineMenu, MdClose } from 'react-icons/md';
 
@@ -82,7 +83,7 @@ function App() {
           <Container fluid className="App-Projects-Mobile">
           <h1>my projects</h1>
             <Carousel >
-              <Carousel.Item interval={4000} >
+              <Carousel.Item interval={7000} >
                 <Container fluid className='project-mobile'>
                   <Nav.Link href="http://good-morels.herokuapp.com/home">
                   <img src={Mushroom} alt='mushroom' className='mushroom-mobile'/>
@@ -92,6 +93,21 @@ function App() {
                     <p>An E-commerce web application that sells medicinal mushrooms.
                       Developed with React-Redux, PostgreSQL, NodeJS, and Express.js.
                       tilized React-Redux and local storage to create a functioning cart for authenticated users and guests.
+                    </p>
+                  </Carousel.Caption>
+                </Container>
+              </Carousel.Item>
+              <Carousel.Item interval={7000} >
+                <Container fluid className='project-mobile'>
+                  <Nav.Link href="https://github.com/Usuls-Usurpers/Capstone-Offline-Reader">
+                    <Image rounded src={cache22} alt='cache22' className='cache22-mobile'/>
+                  </Nav.Link>
+                  <Carousel.Caption className= 'mobile'>
+                    <h3>cache-22</h3>
+                    <p>
+                      A mobile and web application that enables users to save articles for offline viewing.
+                      Developed with Puppeteer to scrape web pages, PWA to utilize a Service Worker to cache 
+                      the web pages, a Chrome extension, Cloud Firestore, and Firebase authentication.
                     </p>
                   </Carousel.Caption>
                 </Container>
@@ -187,16 +203,32 @@ function App() {
           <Container fluid className="App-Projects">
           <h1>my projects</h1>
             <Carousel >
-              <Carousel.Item interval={4000} >
+              <Carousel.Item interval={7000} >
                 <Container className='project'>
                   <Nav.Link href="http://good-morels.herokuapp.com/home">
                   <img src={Mushroom} alt='mushroom' className='mushroom'/>
                   </Nav.Link>
                   <Carousel.Caption>
                     <h3>good-morsels</h3>
-                    <p>An E-commerce web application that sells medicinal mushrooms.
+                    <p>
+                      An E-commerce web application that sells medicinal mushrooms.
                       Developed with React-Redux, PostgreSQL, NodeJS, and Express.js.
                       tilized React-Redux and local storage to create a functioning cart for authenticated users and guests.
+                    </p>
+                  </Carousel.Caption>
+                </Container>
+              </Carousel.Item>
+              <Carousel.Item interval={7000} >
+                <Container className='project'>
+                  <Nav.Link href="https://github.com/Usuls-Usurpers/Capstone-Offline-Reader">
+                    <Image rounded src={cache22} alt='cache22' className='cache22'/>
+                  </Nav.Link>
+                  <Carousel.Caption >
+                    <h3>cache-22</h3>
+                    <p>
+                      A mobile and web application that enables users to save articles for offline viewing.
+                      Developed with Puppeteer to scrape web pages, PWA to utilize a Service Worker to cache 
+                      the web pages, a Chrome extension, Cloud Firestore, and Firebase authentication.
                     </p>
                   </Carousel.Caption>
                 </Container>

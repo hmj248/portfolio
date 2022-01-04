@@ -114,7 +114,7 @@ div.carousel.slide {
 div.carousel-caption {
   position: sticky;
   padding: 5ch;
-  padding-top: 10ch;
+  padding-top: 11ch;
   font-size: large;
 }
 
@@ -136,6 +136,14 @@ div.mobile.carousel-caption p {
 
 .mushroom {
   height: 35ch;
+}
+
+.cache22 {
+  padding: 8ch;
+}
+
+.cache22-mobile {
+  padding: 5ch;
 }
 
 .App-Projects-Mobile {
@@ -231,6 +239,7 @@ div.skills-mobile h5 {
   text-align: start;
   color: #75706b;
   font-size: 1em;
+  font-family: 'Arvo', serif;
 }
 
 /* div.skills.col-lg-2 ul {
