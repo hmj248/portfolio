@@ -199,6 +199,8 @@ function App() {
                 <img src={webpack} alt='webpack' className='skills-icon'/>
                 <h5>Webpack</h5>
               </Col>
+              <Col md={{ offset: 1}}>
+              </Col>
             </Row>
             </Container>
           </>}
