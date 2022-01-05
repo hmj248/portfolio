@@ -71,7 +71,7 @@ To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
 
-This is an example of how to list things you need to use the software and how to install them.
+You’ll need to have Node 14.0.0 or later version on your local development machine (but it’s not required on the server).
 
 - npm
   ```sh
@@ -83,9 +83,9 @@ This is an example of how to list things you need to use the software and how to
 1. npx
    ```sh
    npx create-react-app my-app
-   ```
    cd my-app
-   ```sh
+   npm start
+   ```
    npm start
 2. Then open http://localhost:3000/ to see your app.
 
