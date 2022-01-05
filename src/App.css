@@ -12,6 +12,10 @@
   height: 60vmin;
 }
 
+.victoria-title-mobile {
+  padding-right: 1.5ch;
+}
+
 .bg-cream {
   background-color: rgb(97, 97, 97);
 }

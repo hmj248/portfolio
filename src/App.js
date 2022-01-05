@@ -4,7 +4,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import Victoria from './Victoria.svg';
 import LinkedIn from './linkedIn.svg';
 import GitHub from './GitHub.svg';
-import TitleSmall from './TitleSmall.svg';
+import TitleSmall from './TitleSmallV2.svg';
 import Mushroom from './Mushroom.gif';
 import java from './logo-javascript.svg';
 import node from './Node.js_logo.svg';
@@ -82,7 +82,7 @@ function App() {
             <Navbar.Brand href="#">
               <img src={Victoria} alt="logo" />
             </Navbar.Brand>
-            <img src={TitleSmall} alt="title" />
+            <img src={TitleSmall} alt="title" className="victoria-title-mobile"/>
           </Container>
         </Navbar>
           <Container fluid className='AboutMe-Mobile'>
@@ -104,7 +104,7 @@ function App() {
                     <h3>good-morsels</h3>
                     <p>An E-commerce web application that sells medicinal mushrooms.
                       Developed with React-Redux, PostgreSQL, NodeJS, and Express.js.
-                      tilized React-Redux and local storage to create a functioning cart for authenticated users and guests.
+                      Utilized React-Redux and local storage to create a functioning cart for authenticated users and guests.
                     </p>
                   </Carousel.Caption>
                 </Container>
@@ -238,7 +238,7 @@ function App() {
                     <p>
                       An E-commerce web application that sells medicinal mushrooms.
                       Developed with React-Redux, PostgreSQL, NodeJS, and Express.js.
-                      tilized React-Redux and local storage to create a functioning cart for authenticated users and guests.
+                      Utilized React-Redux and local storage to create a functioning cart for authenticated users and guests.
                     </p>
                   </Carousel.Caption>
                 </Container>
