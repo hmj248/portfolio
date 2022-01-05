@@ -83,9 +83,9 @@ This is an example of how to list things you need to use the software and how to
 1. npx
    ```sh
    npx create-react-app my-app
-   ```sh
-   cd my-app
    ```
+   cd my-app
+   ```sh
    npm start
 2. Then open http://localhost:3000/ to see your app.
 
