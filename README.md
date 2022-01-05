@@ -15,6 +15,11 @@
     <a href="https://github.com/facebook/create-react-app"><strong>Explore the docs »</strong></a>
     <br />
     <br />
+    <a href="https://github.com/facebook/create-react-app#quick-overview">View Demo</a>
+    ·
+    <a href="https://github.com/facebook/create-react-app/issues/new">Report Bug</a>
+    <!-- ·
+    <a href="https://github.com/github_username/repo_name/issues">Request Feature</a> -->
   </p>
 </div>
 
