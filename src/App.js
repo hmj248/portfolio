@@ -101,7 +101,7 @@ function App() {
                   <img src={Mushroom} alt='mushroom' className='mushroom-mobile'/>
                   </Nav.Link>
                   <Carousel.Caption className='mobile'>
-                    <h3>good-morsels</h3>
+                    <h3>good-morels</h3>
                     <p>An E-commerce web application that sells medicinal mushrooms.
                       Developed with React-Redux, PostgreSQL, NodeJS, and Express.js.
                       Utilized React-Redux and local storage to create a functioning cart for authenticated users and guests.
@@ -234,7 +234,7 @@ function App() {
                   <img src={Mushroom} alt='mushroom' className='mushroom'/>
                   </Nav.Link>
                   <Carousel.Caption>
-                    <h3>good-morsels</h3>
+                    <h3>good-morels</h3>
                     <p>
                       An E-commerce web application that sells medicinal mushrooms.
                       Developed with React-Redux, PostgreSQL, NodeJS, and Express.js.
