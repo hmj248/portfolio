@@ -10,7 +10,7 @@
 <h3 align="center">Victoria's Website</h3>
 
   <p align="center">
-    project_description
+    I used React and Bootstrap to create my portfolio website showcasing my projects.
     <br />
     <a href="https://github.com/github_username/repo_name"><strong>Explore the docs »</strong></a>
     <br />
