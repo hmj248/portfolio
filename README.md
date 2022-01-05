@@ -52,7 +52,10 @@
 <!-- ABOUT THE PROJECT -->
 
 ## About The Project
-![Screen Shot 2022-01-05 at 8 51 59 AM] ![Webp net-resizeimage (1)](https://user-images.githubusercontent.com/77859811/148228557-53322265-b0fd-4d09-b205-a70c028bd879.png)
+Web view:
+![Screen Shot 2022-01-05 at 8 51 59 AM](https://user-images.githubusercontent.com/77859811/148228557-53322265-b0fd-4d09-b205-a70c028bd879.png)
+Mobile view:
+![Webp net-resizeimage (1)](https://user-images.githubusercontent.com/77859811/148244792-bf4fae17-5f70-4593-bdc0-e6f88a0982f6.png)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
