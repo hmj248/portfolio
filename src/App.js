@@ -58,7 +58,7 @@ function App() {
 
   return (
     <div className="App">
-      {windowWidth < 1018 ? 
+      {windowWidth <= 1024 ? 
       <><Navbar bg="cream" expand="true" sticky="top" className="mobileNav">
         <nav className="mobileNav">
               {open ? closedIcon : hamburgerIcon}
