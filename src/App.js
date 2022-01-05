@@ -166,11 +166,6 @@ function App() {
               <Col className="skills-mobile" >
                 <img src={gcp} alt='gcp' className='skills-icon-mobile'/>
                 <h5>Google Cloud Platform</h5>
-                {/* <ul id="gcp-skill">
-                  <li>Cloud Firestore</li>
-                  <li>Firebase</li>
-                  <li>Compute Engine VM Instances</li>
-                </ul> */}
               </Col>
               <Col className="skills-mobile">
                 <img src={postgres} alt='postgres' className='skills-icon-mobile'/>
@@ -289,11 +284,6 @@ function App() {
               <Col lg="2" className="skills" >
                 <img src={gcp} alt='gcp' className='skills-icon'/>
                 <h5>Google Cloud Platform</h5>
-                {/* <ul id="gcp-skill">
-                  <li>Cloud Firestore</li>
-                  <li>Firebase</li>
-                  <li>Compute Engine VM Instances</li>
-                </ul> */}
               </Col>
               <Col lg="2" className="skills">
                 <img src={postgres} alt='postgres' className='skills-icon'/>

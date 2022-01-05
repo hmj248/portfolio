@@ -203,7 +203,6 @@ div.Skills.container-fluid {
   padding-top: 8ch;
   padding-bottom: 10ch;
   overflow: hidden;
-  /* padding-right: 6ch; */
   padding-left: 7ch;
 }
 
@@ -226,7 +225,8 @@ div.skills-mobile.col {
   flex-flow: column nowrap;
   align-items: flex-start;
   align-content: center;
-  padding-left: 5ch;
+  padding-left: 3ch;
+  max-width: 120px
 }
 
 div.Skills-mobile h3 {
@@ -241,6 +241,7 @@ div.skills-mobile h5 {
   color: #75706b;
   font-size: 1em;
   font-family: "Arvo", serif;
+  width: 80px
 }
 
 .main-footer {
