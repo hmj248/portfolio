@@ -183,7 +183,6 @@ div.skills.col-lg-2 {
   flex-flow: column nowrap;
   align-items: flex-start;
   align-content: center;
-  padding-left: 2ch;
 }
 
 div.skills.col-lg-2 h5 {
@@ -205,6 +204,7 @@ div.Skills.container-fluid {
   padding-bottom: 10ch;
   overflow: hidden;
   /* padding-right: 6ch; */
+  padding-left: 7ch;
 }
 
 img.skills-icon {
