@@ -256,7 +256,6 @@ div.main-footer.container-fluid h4 {
 div.main-footer.container-fluid .row {
   padding-top: 3em;
   padding-bottom: 2em;
-  /* background-color: grey; */
 }
 
 div.main-footer.container-fluid p {
@@ -265,4 +264,6 @@ div.main-footer.container-fluid p {
 
 .footer-icons {
   color: #c99646;
+  width: 40px;
+  height: 40px;
 }

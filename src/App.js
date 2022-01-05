@@ -310,18 +310,18 @@ function App() {
             </Row>
             </Container>
             <Container fluid className="main-footer">
-              <div className='container'>
-                <div className='row'>
-                  <div className='col-lg-13'>
+              <Container>
+                <Row>
+                  <Col>
                     <h4>Victoria</h4>
                       <IconContext.Provider value={{ className: 'footer-icons' }}>
                         <MdMailOutline onClick={() => handleClick('mailto:victoriahjeon@gmail.com')} />
                         <DiGithubBadge onClick={()=> handleClick('https://github.com/hmj248')} />
                         <IoLogoLinkedin onClick={()=> handleClick('https://linkedin.com/in/victoria-jeon')} />
                       </IconContext.Provider>
-                  </div>
-                </div>
-              </div>
+                  </Col>
+                </Row>
+              </Container>
                 <p className="text-xs-center">
                 &copy;{new Date().getFullYear()} Victoria's Website - All Rights 
                 Reserved
