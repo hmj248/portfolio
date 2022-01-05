@@ -82,7 +82,7 @@ function App() {
             <Navbar.Brand href="#">
               <img src={Victoria} alt="logo" />
             </Navbar.Brand>
-            <img src={TitleSmall} alt="title" className="victoria-title-mobile"/>
+            <img src={TitleSmall} alt="title"/>
           </Container>
         </Navbar>
           <Container fluid className='AboutMe-Mobile'>
