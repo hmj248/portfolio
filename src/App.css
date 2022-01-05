@@ -247,6 +247,7 @@ div.skills-mobile h5 {
 .main-footer {
   background-color: rgb(97, 97, 97);
   font-family: "Arvo", serif;
+  overflow: hidden;
 }
 
 div.main-footer.container-fluid h4 {
@@ -272,6 +273,7 @@ div.main-footer.container-fluid p {
 .main-footer-mobile {
   background-color: rgb(97, 97, 97);
   font-family: "Arvo", serif;
+  overflow: hidden;
 }
 
 div.main-footer-mobile.container-fluid h4 {
