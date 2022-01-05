@@ -118,7 +118,7 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 
 Victoria Jeon - victoriahjeon@gmail.com
 
-Project Link: [https://github.com/github_username/repo_name](https://github.com/github_username/repo_name)
+Project Link: https://victoria-jeon.herokuapp.com/
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
