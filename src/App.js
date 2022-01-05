@@ -2,7 +2,7 @@ import './App.css';
 import { Carousel, Navbar, Container, Nav, Row, Col, Image } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Victoria from './Victoria.svg';
-import LinkedIn from './LinkedIn.svg';
+import LinkedIn from './linkedIn.svg';
 import GitHub from './GitHub.svg';
 import TitleSmall from './TitleSmall.svg';
 import Mushroom from './Mushroom.gif';
