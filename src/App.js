@@ -19,7 +19,7 @@ import postgres from './postgres.svg';
 import webpack from './webpack.svg';
 import responsive from './responsive.svg';
 import cache22 from './cache-22-logo.svg';
-import React, { useState, useEffect, useRef } from 'react';
+import React, { useState, useEffect } from 'react';
 import { MdOutlineMenu, MdClose, MdMailOutline } from 'react-icons/md';
 import { DiGithubBadge } from "react-icons/di"
 import { IoLogoLinkedin } from "react-icons/io";
@@ -28,7 +28,6 @@ import { IconContext } from 'react-icons';
 function App() {
   const [windowWidth, setWindowWidth] = useState(window.innerWidth);
   const [open, setOpen] = useState(false);
-  const [show, setShow] = useState(false);
 
   useEffect(() => {
     window.addEventListener('resize', updateWindowWidth)
