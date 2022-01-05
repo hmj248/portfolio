@@ -40,7 +40,6 @@
         <li><a href="#installation">Installation</a></li>
       </ul>
     </li>
-    <li><a href="#usage">Usage</a></li>
     <li><a href="#roadmap">Roadmap</a></li>
     <li><a href="#contributing">Contributing</a></li>
     <li><a href="#license">License</a></li>
@@ -68,7 +67,6 @@ Mobile view: ![Webp net-resizeimage](https://user-images.githubusercontent.com/7
 
 ## Getting Started
 
-This is an example of how you may give instructions on setting up your project locally.
 To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
@@ -82,29 +80,14 @@ This is an example of how to list things you need to use the software and how to
 
 ### Installation
 
-1. Get a free API Key at [https://example.com](https://example.com)
-2. Clone the repo
+1. npx
    ```sh
-   git clone https://github.com/github_username/repo_name.git
+   npx create-react-app my-app
    ```
-3. Install NPM packages
-   ```sh
-   npm install
+   cd my-app
    ```
-4. Enter your API in `config.js`
-   ```js
-   const API_KEY = "ENTER YOUR API";
-   ```
-
-<p align="right">(<a href="#top">back to top</a>)</p>
-
-<!-- USAGE EXAMPLES -->
-
-## Usage
-
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
-
-_For more examples, please refer to the [Documentation](https://example.com)_
+   npm start
+2. Then open http://localhost:3000/ to see your app.
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
