@@ -53,6 +53,7 @@
 
 ## About The Project
 ![Screen Shot 2022-01-05 at 8 51 59 AM](https://user-images.githubusercontent.com/77859811/148228557-53322265-b0fd-4d09-b205-a70c028bd879.png)
+![mobile-view](https://user-images.githubusercontent.com/77859811/148244095-beccbce1-37d3-4c99-9a5d-7c8d4f66f193.png)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
