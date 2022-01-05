@@ -83,7 +83,7 @@ This is an example of how to list things you need to use the software and how to
 1. npx
    ```sh
    npx create-react-app my-app
-   ```
+   ```sh
    cd my-app
    ```
    npm start
