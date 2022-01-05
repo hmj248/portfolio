@@ -181,6 +181,24 @@ function App() {
               </Col>
             </Row>
           </Container>
+          <Container fluid className="main-footer-mobile">
+              <Container>
+                <Row>
+                  <Col>
+                    <h4>Victoria</h4>
+                      <IconContext.Provider value={{ className: 'footer-icons-mobile' }}>
+                        <MdMailOutline onClick={() => handleClick('mailto:victoriahjeon@gmail.com')} />
+                        <DiGithubBadge onClick={()=> handleClick('https://github.com/hmj248')} />
+                        <IoLogoLinkedin onClick={()=> handleClick('https://linkedin.com/in/victoria-jeon')} />
+                      </IconContext.Provider>
+                  </Col>
+                </Row>
+              </Container>
+                <p className="text-xs-center">
+                &copy;{new Date().getFullYear()} Victoria's Website - All Rights 
+                Reserved
+                </p>
+            </Container>
           </> : 
  <><Navbar bg="cream" expand="true" sticky="top">
           <Container fluid className="App-Header">

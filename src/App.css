@@ -225,8 +225,8 @@ div.skills-mobile.col {
   flex-flow: column nowrap;
   align-items: flex-start;
   align-content: center;
-  padding-left: 3ch;
-  max-width: 120px
+  padding-left: 4ch;
+  max-width: 120px;
 }
 
 div.Skills-mobile h3 {
@@ -241,7 +241,7 @@ div.skills-mobile h5 {
   color: #75706b;
   font-size: 1em;
   font-family: "Arvo", serif;
-  width: 80px
+  width: 80px;
 }
 
 .main-footer {
@@ -267,4 +267,30 @@ div.main-footer.container-fluid p {
   color: #c99646;
   width: 40px;
   height: 40px;
+}
+
+.main-footer-mobile {
+  background-color: rgb(97, 97, 97);
+  font-family: "Arvo", serif;
+}
+
+div.main-footer-mobile.container-fluid h4 {
+  font-family: "Satisfy", cursive;
+  font-size: 2.5em;
+}
+
+div.main-footer-mobile.container-fluid .row {
+  padding-top: 1.5em;
+  padding-bottom: 1.5em;
+}
+
+div.main-footer-mobile.container-fluid p {
+  padding-bottom: 2em;
+  font-size: 0.8em;
+}
+
+.footer-icons-mobile {
+  color: #c99646;
+  width: 30px;
+  height: 30px;
 }
