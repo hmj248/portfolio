@@ -3,7 +3,7 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/hmj248">
+  <a href="https://victoria-jeon.herokuapp.com/">
     <img src="public/Victoria.png" alt="Logo" width="80" height="80">
   </a>
 
@@ -40,11 +40,9 @@
         <li><a href="#installation">Installation</a></li>
       </ul>
     </li>
-    <li><a href="#roadmap">Roadmap</a></li>
     <li><a href="#contributing">Contributing</a></li>
     <li><a href="#license">License</a></li>
     <li><a href="#contact">Contact</a></li>
-    <li><a href="#acknowledgments">Acknowledgments</a></li>
   </ol>
 </details>
 
@@ -91,21 +89,6 @@ You’ll need to have Node 14.0.0 or later version on your local development mac
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
-<!-- ROADMAP -->
-
-## Roadmap
-
-- [] Feature 1
-- [] Feature 2
-- [] Feature 3
-  - [] Nested Feature
-
-See the [open issues](https://github.com/github_username/repo_name/issues) for a full list of proposed features (and known issues).
-
-<p align="right">(<a href="#top">back to top</a>)</p>
-
-<!-- CONTRIBUTING -->
-
 ## Contributing
 
 Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
@@ -133,7 +116,7 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 
 ## Contact
 
-Your Name - [@twitter_handle](https://twitter.com/twitter_handle) - email@email_client.com
+Victoria Jeon - victoriahjeon@gmail.com
 
 Project Link: [https://github.com/github_username/repo_name](https://github.com/github_username/repo_name)
 
@@ -141,10 +124,5 @@ Project Link: [https://github.com/github_username/repo_name](https://github.com/
 
 <!-- ACKNOWLEDGMENTS -->
 
-## Acknowledgments
-
-- []()
-- []()
-- []()
 
 <p align="right">(<a href="#top">back to top</a>)</p>
