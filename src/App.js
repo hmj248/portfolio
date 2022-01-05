@@ -19,36 +19,49 @@ import postgres from './postgres.svg';
 import webpack from './webpack.svg';
 import responsive from './responsive.svg';
 import cache22 from './cache-22-logo.svg';
-import React, { useState, useEffect } from 'react';
-import { MdOutlineMenu, MdClose } from 'react-icons/md';
+import React, { useState, useEffect, useRef } from 'react';
+import { MdOutlineMenu, MdClose, MdMailOutline } from 'react-icons/md';
+import { DiGithubBadge } from "react-icons/di"
+import { IoLogoLinkedin } from "react-icons/io";
+import { IconContext } from 'react-icons';
 
 function App() {
   const [windowWidth, setWindowWidth] = useState(window.innerWidth);
   const [open, setOpen] = useState(false);
+  const [show, setShow] = useState(false);
 
   useEffect(() => {
     window.addEventListener('resize', updateWindowWidth)
   })
+
   useEffect(() => {
     window.addEventListener('resize', updateWindowWidth);
     return () => {
       window.removeEventListener('resize', updateWindowWidth)
     }
   })
+
+  const handleClick = (value) => {
+    window.location.assign(value)
+  }
+
   const updateWindowWidth = () => {
     setWindowWidth(window.innerWidth)
   }
+
   const hamburgerIcon = <MdOutlineMenu className="Hamburger"
     onClick={() => setOpen(!open)}
   /> 
+
   const closedIcon = <MdClose className="Hamburger"
     onClick={() => setOpen(!open)}
   />
+
   return (
     <div className="App">
       {windowWidth < 1018 ? 
       <><Navbar bg="cream" expand="true" sticky="top" className="mobileNav">
-        <nav className="mobileNav"> 
+        <nav className="mobileNav">
               {open ? closedIcon : hamburgerIcon}
               {open && 
                 <ul>
@@ -295,6 +308,24 @@ function App() {
                 <h5>Sequelize</h5>
               </Col>
             </Row>
+            </Container>
+            <Container fluid className="main-footer">
+              <div className='container'>
+                <div className='row'>
+                  <div className='col-lg-13'>
+                    <h4>Victoria</h4>
+                      <IconContext.Provider value={{ className: 'footer-icons' }}>
+                        <MdMailOutline onClick={() => handleClick('mailto:victoriahjeon@gmail.com')} />
+                        <DiGithubBadge onClick={()=> handleClick('https://github.com/hmj248')} />
+                        <IoLogoLinkedin onClick={()=> handleClick('https://linkedin.com/in/victoria-jeon')} />
+                      </IconContext.Provider>
+                  </div>
+                </div>
+              </div>
+                <p className="text-xs-center">
+                &copy;{new Date().getFullYear()} Victoria's Website - All Rights 
+                Reserved
+                </p>
             </Container>
           </>}
      </div>

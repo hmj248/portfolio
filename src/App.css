@@ -183,14 +183,14 @@ div.skills.col-lg-2 {
   flex-flow: column nowrap;
   align-items: flex-start;
   align-content: center;
-  padding-left: 9ch;
+  padding-left: 2ch;
 }
 
 div.skills.col-lg-2 h5 {
   text-align: start;
   color: #75706b;
   font-size: 1em;
-  /* position: sticky; */
+  font-family: "Arvo", serif;
 }
 
 div.Skills h3 {
@@ -204,6 +204,7 @@ div.Skills.container-fluid {
   padding-top: 8ch;
   padding-bottom: 10ch;
   overflow: hidden;
+  /* padding-right: 6ch; */
 }
 
 img.skills-icon {
@@ -239,30 +240,29 @@ div.skills-mobile h5 {
   text-align: start;
   color: #75706b;
   font-size: 1em;
-  font-family: 'Arvo', serif;
+  font-family: "Arvo", serif;
 }
 
-/* div.skills.col-lg-2 ul {
-  text-align: start;
-  list-style-type: disc;
-  padding-left: 2ch;
-  line-height: 1.5ch;
-  font-size: 0.7em;
-} */
+.main-footer {
+  background-color: rgb(97, 97, 97);
+  font-family: "Arvo", serif;
+}
 
-/* div.carousel-caption {
-  float: right;
-} */
+div.main-footer.container-fluid h4 {
+  font-family: "Satisfy", cursive;
+  font-size: 3em;
+}
 
-/* div.App-Projects.container.carousel {
-  display: flex;
-  flex-flow:column wrap
-} */
+div.main-footer.container-fluid .row {
+  padding-top: 3em;
+  padding-bottom: 2em;
+  /* background-color: grey; */
+}
 
-/* .mushroom:hover {
-  pointer-events: none;
-} */
+div.main-footer.container-fluid p {
+  padding-bottom: 2em;
+}
 
-/* .App-link {
-  color: #61dafb;
-} */
+.footer-icons {
+  color: #c99646;
+}
